@@ -1,17 +1,35 @@
 
-#red{
+/* #red{
   color: red;
   background-color: red;
   text-decoration: dashed;
   border-top: 3px solid whitesmoke;
-}
+} */
 link-list {
-    padding: 0;
+    padding: 0px;
   }
   
   .link-list-item {
+   
+  }
+  
+
+  #inner{
     text-align: left;
     font-size: 0.9rem;
+    border-radius: 10px;
+    padding: 10px;
+  /* Created with https://www.css-gradient.com */
+/* background: #8A1F92;
+background: -webkit-linear-gradient(left, #8A1F92, #C001B9);
+background: -moz-linear-gradient(left, #8A1F92, #C001B9);
+background: linear-gradient(to right, #8A1F92, #C001B9); */
+
+/* Created with https://www.css-gradient.com */
+background: #38CE8A;
+background: -webkit-linear-gradient(top left, #38CE8A, #7718EE);
+background: -moz-linear-gradient(top left, #38CE8A, #7718EE);
+background: linear-gradient(to bottom right, #38CE8A, #7718EE);
   }
   
   .link-list-item-url {
@@ -24,3 +42,4 @@ link-list {
     border-radius: 3px;
     box-shadow: 2px 2px 4px rgba(150, 149, 149, 0.4);
   }
+  

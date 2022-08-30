@@ -5,10 +5,10 @@ import "./TechnicalList.css";
 
 const TechnicalList = (props) => {
   const linkMarkup = props.Techoptions.map((link) => (
-    <li key={link.id} className="link-list-item">
+    <li key={link.id} className="link-list-item" id="outer1">
         {link.text}
     </li>
   ));
-  return <ul className="link-list">{linkMarkup}</ul>;
+  return <ul id="inner2" className="link-list"  style={{listStyle:'none'}}>{linkMarkup}</ul>;
 };
 export default TechnicalList;

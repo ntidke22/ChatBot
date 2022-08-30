@@ -7,6 +7,13 @@
     text-align: left;
     font-size: 0.9rem;
   }
+
+  #inner1{
+    background: #38CE8A;
+    background: linear-gradient(to bottom right, #38CE8A, #7718EE);
+    border-radius: 10PX;
+    padding: 10px;
+  }
   
   .link-list-item-url {
     text-decoration: none;
@@ -17,4 +24,8 @@
     padding: 8px;
     border-radius: 3px;
     box-shadow: 2px 2px 4px rgba(150, 149, 149, 0.4);
+  }
+  
+  #outer2::before{
+    content: "\27A4";
   }

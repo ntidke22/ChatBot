@@ -20,13 +20,13 @@ constructor(ActionProvider) {
         {
             this.ActionProvider.hola();
         }
-        else if(lowermsg.includes("kunal"))
+        else if(lowermsg.includes("hobbies"))
         {
-            this.ActionProvider.La();
+            this.ActionProvider.Hobbies();
         }
-        else if(lowermsg.includes("mc"))
+        else if(lowermsg.includes("do you like me"))
         {
-            this.ActionProvider.Ma();
+            this.ActionProvider.like();
         }
         else if(lowermsg.includes("hi"))
         {
@@ -35,18 +35,6 @@ constructor(ActionProvider) {
         else if(lowermsg.includes("how are you"))
         {
             this.ActionProvider.How();
-        }
-        else if(lowermsg.includes("kiran"))
-        {
-            this.ActionProvider. KiranDornachya();
-        }
-        else if(lowermsg.includes("akshata"))
-        {
-            this.ActionProvider.Akshata();
-        }
-        else if(lowermsg.includes("anjali"))
-        {
-            this.ActionProvider.Anjali();
         }
         else if(lowermsg.includes("personal info"))
         {
@@ -64,11 +52,22 @@ constructor(ActionProvider) {
         {
             this.ActionProvider.technical();
         }
-        else if(lowermsg.includes("contacts info"))
+        else if(lowermsg.includes("contact"))
         {
             this.ActionProvider.contacts();
         }
-
+        else if(lowermsg.includes("motivate"))
+        {
+            this.ActionProvider.motivate();
+        }
+        else if(lowermsg.includes("fav song"))
+        {
+            this.ActionProvider.song();
+        }
+        else if(lowermsg.includes("happy"))
+        {
+            this.ActionProvider.moody();
+        }
         else
         {
             this.ActionProvider.sorry();
