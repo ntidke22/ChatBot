@@ -3,7 +3,6 @@ import React from "react";
 import "./ProjectList.css";
 
 const ProjectList = (props) => {
-  const temp = props.projoptions.host
   const linkMarkup = props.projoptions.map((link) => (
     <li key={link.id} className="link-list-item"  >
       <div id="inner">
