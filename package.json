@@ -1,6 +1,5 @@
 {
   "name": "chat",
-  "homepage": "https://himanshufating.github.io/ChatBot",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
